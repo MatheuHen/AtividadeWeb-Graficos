@@ -21,7 +21,7 @@ function desenharGraficoPizza() {
     const opcoes = {
         title: 'Distribuição de Vendas',
         pieHole: 0.4,
-        // Legenda com nomes ao lado das bolinhas e área reservada
+        
         legend: { position: 'right', textStyle: { color: '#333', fontSize: 12 } },
         chartArea: { width: '75%', height: '80%' },
         sliceVisibilityThreshold: 0,
@@ -44,7 +44,7 @@ function desenharGraficoLinhas() {
         ['Julho', 27000, 'Julho — Vendas: 27.000'],
         ['Agosto', 8000, 'Agosto — Vendas: 8.000'],
         ['Setembro', 7500, 'Setembro — Vendas: 7.500'],
-        ['Outubro', 95000, 'Outubro — Vendas: 95.000'],
+        ['Outubro', 95000, 'Outubro — Vendas: 10.000'],
         ['Novembro', 15000, 'Novembro — Vendas: 15.000'],
         ['Dezembro', 24000, 'Dezembro — Vendas: 24.000']
         ]);
@@ -54,7 +54,7 @@ function desenharGraficoLinhas() {
         curveType: 'function',
         legend: { position: 'bottom' },
         colors: ['#4285F4'],
-        // Pontos visíveis e tooltip por ponto para mês e valor
+        
         pointSize: 6,
         focusTarget: 'datum',
         tooltip: { isHtml: false }
@@ -80,7 +80,7 @@ function desenharGraficoBarras() {
         title: 'Vendas por Vendedor',
         legend: { position: 'none' },
         colors: ['#34A853'],
-        // Tooltip padrão (não-HTML) com texto (evita flicker)
+        
         tooltip: { isHtml: false }
     };
 
