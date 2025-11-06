@@ -44,7 +44,7 @@ function desenharGraficoLinhas() {
         ['Julho', 27000, 'Julho — Vendas: 27.000'],
         ['Agosto', 8000, 'Agosto — Vendas: 8.000'],
         ['Setembro', 7500, 'Setembro — Vendas: 7.500'],
-        ['Outubro', 95000, 'Outubro — Vendas: 10.000'],
+        ['Outubro', 10000, 'Outubro — Vendas: 10.000'],
         ['Novembro', 15000, 'Novembro — Vendas: 15.000'],
         ['Dezembro', 24000, 'Dezembro — Vendas: 24.000']
         ]);
